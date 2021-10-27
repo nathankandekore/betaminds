@@ -1,38 +1,248 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+@import "react-slideshow-image/dist/styles.css";
+
+h1 {
+  color: white;
+  padding: 40px;
+  position: relative;
+  font-family: heebo;
+}
+
+h2 {
+  color: white;
+  padding: 10px;
+  font-family: heebo;
+}
+
+ul {
+  margin: 5px;
+  padding: 5px;
+  font-family: heebo;
+}
+
+li {
+  margin: 5px;
+  padding: 5px;
+  float: right;
+  font-family: heebo;
+}
+
+li:hover {
+  background-color: #efdcf9;
+  color: #8155ba;
+  border-radius: 10px;
+}
+
+.donateButton {
+  display: flex;
+  margin-right: 10px;
+  margin-top: 30px;
+  background-color: #fff4bd;
+  font-size: 20px;
+  padding: 14px 100px 14px 100px;
+  color: #8155ba;
+  border: none;
+  border-radius: 12px;
+  float: right;
+}
+
+.headerStyle {
+  background-color: #8155ba;
+  color: white;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.logoNav {
+  margin: 5px;
+  padding: 5px;
+}
+
+.linkNav {
+  list-style: none;
+}
+
+.bannerStyle {
+  height: 600px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+
+.imageSize {
+  width: 100%;
+  object-fit: none;
+  object-position: center;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.sloganText {
+  color: #8155ba;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.whoAreBM {
+  background-color: #8155ba;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slideshow {
+  background-color: #efdcf9;
+  border-radius: 10px;
+  margin-top: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slideshowText {
+  color: #8155ba;
+  text-align: center;
+}
+
+.contactForm {
+  background-color: #fff4bd;
+  height: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.contactForm h1 {
+  color: #8155ba;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.fname {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+.contactTextBox {
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-family: heebo;
+}
+
+.contactForm button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #efdcf9;
+}
+
+.contact {
+  margin: 10px;
+}
+
+.partners {
+  color: #8155ba;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.partners h4 {
+  margin-top: 30px;
+  font-family: heebo;
+  text-align: center;
+  margin-left: 10px;
+  color: #8155ba;
+}
+
+.partnerContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100%;
+  margin: 10px;
+}
+
+.footerContainer {
+  background-color: #efdcf9;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.companyInfoContainer {
+  margin: 10px;
+  padding: 10px;
+}
+
+.companyAddressText {
+  color: white;
+  font-family: heebo;
+  /* padding: 0px; */
+  margin: 5px;
+}
+
+.companyAddressText p {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.signature {
+  height: 100px;
+  border-radius: 10px;
+  color: #efdcf9;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.SignatureBanner {
+  background-color: black;
+  height: 300px;
+  /* border-radius: 10px; */
+}
+
+.signatureBannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: heebo;
+}
+
+.socialMediaIconsContainer {
+  margin: 10px;
+  float: right;
+  color: white;
+  display: flex;
+}
+
+.facebookIcon {
+  margin: 5px;
+}
+
+.facebookIcon a:visited {
+  color: white;
+}
+
+.facebookIcon a:hover {
+  color: #8155ba;
+}
+
+.instagramIcon {
+  margin: 5px;
+}
+
+.instagramIcon a:visited {
+  color: white;
+}
+
+.instagramIcon a:hover {
+  color: #8155ba;
+}
+
+.twitterIcon {
+  margin: 5px;
+}
+
+.twitterIcon a:visited {
+  color: white;
+}
+
+.twitterIcon a:hover {
+  color: #8155ba;
 }
