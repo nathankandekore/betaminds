@@ -59,7 +59,8 @@ li:hover {
   background-color: #8155ba;
   color: white;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 .logoNav {
@@ -257,10 +258,51 @@ li:hover {
 }
 
 .about-us-background {
-  background-color: #8155ba;
-  height: 300px;
+  background-image: url("./Images/IMG-20210805-WA0024.jpg");
+
+  height: 700px;
   background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.about-us-background-overlay {
+  opacity: 50%;
+  z-index: 2;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.about-us-heading-text {
+  color: purple;
+  text-align: center;
+}
+
+.about-us-subheading-text {
+  text-align: center;
+}
+
+.meet-the-founder-container {
+  display: flex;
   border-radius: 10px;
+}
+
+.meet-the-founder {
+  background-color: #efdcf9;
+  border-radius: 10px;
+  margin: 10px;
+  width: 70%;
+}
+
+.meet-the-founder-image {
+  width: 100%;
+  border-radius: 20px;
+  margin: 10px;
+  opacity: 50%;
+}
+
+.meet-the-founder-text {
+  text-align: center;
+  margin: 10px;
 }
 
 body {
