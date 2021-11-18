@@ -25,6 +25,12 @@ li {
   padding: 5px;
   float: right;
   font-family: heebo;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 li:hover {
@@ -33,6 +39,9 @@ li:hover {
   border-radius: 10px;
 }
 
+.nav-link {
+  text-decoration: none;
+}
 .donateButton {
   display: flex;
   margin-right: 10px;
@@ -245,4 +254,66 @@ li:hover {
 
 .twitterIcon a:hover {
   color: #8155ba;
+}
+
+.about-us-background {
+  background-color: #8155ba;
+  height: 300px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 20%;
+  position: relative;
+  transition: transform 500ms;
+  display: block;
+}
+
+.hero-section {
+  margin-top: 10px;
+}
+
+.container img {
+  width: 100%;
+  opacity: 1;
+  height: auto;
+  display: block;
+}
+
+.row {
+  display: flex;
+}
+
+.row .container:focus,
+.row .container:hover {
+  transform: scale(1.5);
+  z-index: 1;
+}
+
+.middle {
+  background-color: #8155ba;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .middle {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }

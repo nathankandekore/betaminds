@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Slideshow from "../components/Slideshow";
 import Partners from "../Partners";
 import Footer from "../Footer";
-import SignatureBanner from "../SignatureBanner";
+import SignatureBanner from "../components/SignatureBanner.js";
 import HeaderTop from "../components/HeaderTop";
 import Slogan from "../components/Slogan";
 import ContactForm from "../components/ContactForm";

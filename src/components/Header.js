@@ -1,11 +1,35 @@
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="headerStyle">
       <ul className="menuLinks">
-        <li className="linkNav">News and Events</li>
-        <li className="linkNav">Services</li>
-        <li className="linkNav">About Us</li>
-        <li className="linkNav">Home</li>
+        <li className="linkNav">
+          <NavLink className="nav-link" to="/team">
+            The Team
+          </NavLink>
+        </li>
+        <li className="linkNav">
+          <NavLink className="nav-link" to="/news">
+            News and Events
+          </NavLink>
+        </li>
+
+        <li className="linkNav">
+          <NavLink className="nav-link" to="/services">
+            Services
+          </NavLink>
+        </li>
+        <li className="linkNav">
+          <NavLink className="nav-link" to="/about">
+            About Us
+          </NavLink>
+        </li>
+        <li className="linkNav">
+          <NavLink className="nav-link" to="/">
+            Home
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

@@ -15,6 +15,7 @@ import Home from "./Pages/Home.js";
 import about from "./Pages/AboutUs.js";
 import services from "./Pages/Services.js";
 import news from "./Pages/NewsAndEvents.js";
+import Team from "./Pages/Team";
 import { Route, Switch } from "react-router";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
     <main>
       <Switch>
         <Route path="/about" component={about} />
+        <Route path="/team" component={Team} />
         <Route path="/services" component={services} />
         <Route path="/news" component={news} />
         <Route path="/" component={Home} exact />
