@@ -9,11 +9,13 @@ const Header = () => {
             The Team
           </NavLink>
         </li>
-        <li className="linkNav">
+
+        {/* News and Events tab */}
+        {/* <li className="linkNav">
           <NavLink className="nav-link" to="/news">
             News and Events
           </NavLink>
-        </li>
+        </li> */}
 
         <li className="linkNav">
           <NavLink className="nav-link" to="/services">

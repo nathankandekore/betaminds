@@ -14,9 +14,10 @@ const AboutUs = () => {
 
         <Header />
       </header>
+
+      <h1 className="sloganText">About Our Organisation</h1>
       <div className="about-us-background-overlay">
         <div className="about-us-background">
-          <h1 className="about-us-heading-text">About Our Organisation</h1>
           <h1 className="about-us-subheading-text">
             Betaminds is a holistic intergenerational youth engagement provision
             founded by a qualified behaviour specialist & a team of qualified

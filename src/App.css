@@ -283,20 +283,20 @@ li:hover {
 
 .meet-the-founder-container {
   display: flex;
-  border-radius: 10px;
+  /* border-radius: 20px; */
 }
 
 .meet-the-founder {
   background-color: #efdcf9;
-  border-radius: 10px;
-  margin: 10px;
+  border-radius: 20px;
+  margin: 20px;
   width: 70%;
 }
 
 .meet-the-founder-image {
   width: 100%;
   border-radius: 20px;
-  margin: 10px;
+  margin: 20px;
   opacity: 50%;
 }
 
@@ -358,4 +358,97 @@ body {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
+
+.services-banner {
+}
+
+/* Think Well section */
+
+.think-well-container {
+}
+
+.think-well-section {
+  color: white;
+  height: 600px;
+
+  background-color: #f0be58;
+  opacity: 70%;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.think-well-text li {
+  list-style: none;
+}
+
+.services-list {
+  background-color: #8155ba;
+  display: grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+}
+
+/* Wellbeing Section */
+
+.well-being-container {
+  display: block;
+}
+
+.well-being-section {
+  color: #316767;
+  height: 600px;
+  background-image: url("./Images/just-green-guy-right.png");
+  background-repeat: no-repeat;
+  background-size: 85%;
+
+  opacity: 100%;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.well-being-text {
+  margin-left: 30%;
+  font-family: heebo;
+}
+
+/* Being one section */
+
+.being-one-container {
+  /* display: block; */
+}
+
+.being-one-section {
+  color: #673366;
+  padding: 10px;
+  height: 600px;
+  background-image: url("./Images/justpurpleguy.png");
+  background-repeat: no-repeat;
+  background-size: 85%;
+  opacity: 70%;
+  border-radius: 20px;
+  /* margin: 10px;
+  margin-top: 30px; */
+}
+
+.being-one-text {
+  font-family: heebo;
+  margin-left: 30%;
+  margin-top: 20%;
+}
+
+.being-one-logo-position {
+  float: right;
+}
+
+.being-one-text-position {
+}
+
+.photo-divider-section {
+  height: 150px;
+  background-image: url(/Users/nathankandekore-white/Desktop/betaminds/src/familyPic.jpeg);
+
+  background-size: 150%;
+  opacity: 25%;
+  background-position: 100px;
+  padding: 20px;
 }
