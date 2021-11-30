@@ -3,7 +3,9 @@ import Header from "../components/Header";
 import HeaderTop from "../components/HeaderTop";
 import BeingOneLogo from "../Images/beingone_logo.png";
 import WellBeingLogo from "../Images/wellbeing_logo.png";
-import FamilyPic from "../familyPic.jpeg";
+// import FamilyPic from "../familyPic.jpeg";
+import ThinkWellLogo from "../Images/BetaMinds_logothinkwell.jpg";
+import Footer from "../Footer";
 
 const Services = () => {
   return (
@@ -19,42 +21,41 @@ const Services = () => {
       </h2>
 
       <h1 className="sloganText">Think Well, Well Being and Being One</h1>
-
-      <div className="think-well-section">
-        <div className="think-well-container">
+      <div className="being-one-logo-position">
+        <img
+          src={ThinkWellLogo}
+          alt="logo-thing-well"
+          width={300}
+          height={175}
+        />
+      </div>
+      <div className="think-well-container">
+        <div className="think-well-section">
           <div className="think-well-text">
-            <h3>EDUCATION</h3>
-            <div className="services-list">
-              <div>
-                <p>1:1 and small group tutoring & extra curricular sessions</p>
-              </div>
-              <div>
-                <p>Employability and Careers Advice</p>
-              </div>
-              <div>
-                <p>Tailored in-school workshops</p>
-              </div>
-              <div>
-                <p>One-off sessions and programs</p>
-              </div>
-              <div>
-                <p>Cross-Strand Citizenship Project</p>
-              </div>
-              <div>
-                <p>‘My Torch is Lit’ Project </p>
-              </div>
+            <div>
+              <p>1:1 and small group tutoring & extra curricular sessions</p>
             </div>
-            <div>something</div>
-            <div>something else</div>
+            <div>
+              <p>Employability and Careers Advice</p>
+            </div>
+            <div>
+              <p>Tailored in-school workshops</p>
+            </div>
+            <div>
+              <p>One-off sessions and programs</p>
+            </div>
+            <div>
+              <p>Cross-Strand Citizenship Project</p>
+            </div>
+            <div>
+              <p>‘My Torch is Lit’ Project </p>
+            </div>
           </div>
-          <div className="think-well-image-container">
-            {/* <img src={#} alt="think well logo" /> */}
-          </div>
+
+          <div className="think-well-image-container"></div>
         </div>
       </div>
-      <div className="photo-divider-section">
-        {/* <img src={FamilyPic} alt="divider spacer" /> */}
-      </div>
+      <div className="photo-divider-section"></div>
       <div className="well-being-container">
         <div className="well-being-section">
           <img src={WellBeingLogo} width={300} height={175} />
@@ -82,9 +83,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="photo-divider-section">
-          {/* <img src={FamilyPic} alt="divider spacer" /> */}
-        </div>
+        <div className="photo-divider-section"></div>
         <div className="being-one-container">
           <div className="being-one-section">
             <div className="being-one-logo-position">
@@ -121,6 +120,8 @@ const Services = () => {
       <div className="photo-divider-section">
         {/* <img src={FamilyPic} alt="divider spacer" /> */}
       </div>
+
+      <Footer />
     </>
   );
 };

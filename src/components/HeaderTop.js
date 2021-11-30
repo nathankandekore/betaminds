@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "/Users/nathankandekore-white/Desktop/betaminds/src/BetaMinds_mainlogowithtag.jpg";
+import logo from "../mainlogo.png";
 
 const HeaderTop = () => {
   return (
