@@ -10,9 +10,6 @@ const Footer = () => {
         <div className="companyInfoContainer" height={300} width={50}>
           <img src={WhiteLogo} alt="Betaminds logo" height={100} width={200} />
           <div>
-            <h3 className="companyAddressText">123 Rainbow Drive</h3>
-            <h3 className="companyAddressText">Colour World</h3>
-            <h3 className="companyAddressText">A12 3BC</h3>
             <p className="companyAddressText">
               Registered Community Interest Company: 123455678
             </p>

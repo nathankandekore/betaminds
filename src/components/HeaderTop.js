@@ -13,7 +13,11 @@ const HeaderTop = () => {
           alt="Logo"
           className="logoNav"
         />
-        <button className="donateButton">Make a donation</button>
+        <button className="donateButton">
+          <a href="https://www.justgiving.com/" target="_blank">
+            Make a donation
+          </a>
+        </button>
       </div>
     </>
   );

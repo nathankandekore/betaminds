@@ -55,6 +55,14 @@ li:hover {
   float: right;
 }
 
+.donateButton a:hover {
+  color: #8155ba;
+}
+
+.donateButton a:visited {
+  color: #8155ba;
+}
+
 .headerStyle {
   background-color: #8155ba;
   color: white;
@@ -74,6 +82,7 @@ li:hover {
 
 .bannerStyle {
   height: 600px;
+
   border-radius: 10px;
   background-repeat: no-repeat;
 }
@@ -150,6 +159,7 @@ li:hover {
   margin: 10px;
 }
 
+/* PARTNERS SECTION*/
 .partners {
   color: #8155ba;
   height: 300px;
@@ -172,6 +182,18 @@ li:hover {
   margin: 10px;
 }
 
+.paperpages-logo {
+  margin: 5px;
+}
+
+.boilerhouse-logo {
+  margin: 5px;
+}
+
+.kandekore-logo {
+  margin: 5px;
+}
+
 .footerContainer {
   background-color: #efdcf9;
   height: 300px;
@@ -180,7 +202,7 @@ li:hover {
 
 .companyInfoContainer {
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .companyAddressText {
@@ -354,6 +376,11 @@ body {
   opacity: 0.5;
 }
 
+/* .middle text {
+  position: absolute;
+  
+} */
+
 .text {
   color: white;
   font-size: 16px;
@@ -382,8 +409,8 @@ body {
 
 .think-well-text {
   font-family: heebo;
-  margin-left: 45%;
-  margin-top: 10%;
+  margin-left: 40%;
+  margin-top: 15%;
 }
 .isolate-think-well-text {
   margin-top: 10%;

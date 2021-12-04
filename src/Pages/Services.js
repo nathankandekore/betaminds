@@ -5,7 +5,8 @@ import BeingOneLogo from "../Images/beingone_logo.png";
 import WellBeingLogo from "../Images/wellbeing_logo.png";
 // import FamilyPic from "../familyPic.jpeg";
 import ThinkWellLogo from "../Images/BetaMinds_logothinkwell.jpg";
-import Footer from "../Footer";
+import Footer from "../components/Footer.js";
+import Slideshow from "../components/Slideshow";
 
 const Services = () => {
   return (
@@ -55,6 +56,7 @@ const Services = () => {
           <div className="think-well-image-container"></div>
         </div>
       </div>
+      <Slideshow />
       <div className="photo-divider-section"></div>
       <div className="well-being-container">
         <div className="well-being-section">
@@ -83,6 +85,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+        <Slideshow />
         <div className="photo-divider-section"></div>
         <div className="being-one-container">
           <div className="being-one-section">
@@ -116,7 +119,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-
+      <Slideshow />
       <div className="photo-divider-section">
         {/* <img src={FamilyPic} alt="divider spacer" /> */}
       </div>

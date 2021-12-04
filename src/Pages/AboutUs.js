@@ -3,7 +3,7 @@ import Feedback from "react-bootstrap/esm/Feedback";
 import Header from "../components/Header";
 import HeaderTop from "../components/HeaderTop";
 import Slideshow from "../components/Slideshow";
-import Footer from "../Footer";
+import Footer from "../components/Footer.js";
 import Rhyania from "../Images/IMG_20191102_102339_967.jpg";
 
 const AboutUs = () => {

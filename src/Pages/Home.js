@@ -4,7 +4,7 @@ import FeatureBanner from "../components/FeatureBanner";
 import Header from "../components/Header";
 import Slideshow from "../components/Slideshow";
 import Partners from "../Partners";
-import Footer from "../Footer";
+import Footer from "../components/Footer.js";
 import SignatureBanner from "../components/SignatureBanner.js";
 import HeaderTop from "../components/HeaderTop";
 import Slogan from "../components/Slogan";

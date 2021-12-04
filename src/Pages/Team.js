@@ -1,18 +1,20 @@
 import React from "react";
 import Header from "../components/Header";
 import HeaderTop from "../components/HeaderTop";
-import WhiteLady from "../Images/white-lady-brown-hair.jpg";
-import GingerLady from "../Images/u3WmDyKGsrY.jpg";
-import LeightonBaines from "../Images/rriAI0nhcbc.jpg";
-import BlackHairBrownDude from "../Images/PQeoQdkU9jQ.jpg";
-import ChineseDude from "../Images/n4KewLKFOZw.jpg";
-import SmilingRedLips from "../Images/mEZ3PoFGs_k.jpg";
-import BlackBeauty from "../Images/J1OScm_uHUQ.jpg";
-import MiddleAgedMan from "../Images/cdksyTqEXzo.jpg";
-import Aphrodite from "../Images/bqe0J0b26RQ.jpg";
-import PlasticWoman from "../Images/3TLl_97HNJo.jpg";
-import SignatureBanner from "../components/SignatureBanner";
-import Footer from "../Footer";
+import Kusu from "../Images/Kusu think well lead.jpeg";
+import Rhyanina from "../Images/Rhyanina founder.jpeg";
+import Ticha from "../Images/Ticha.jpeg";
+import Nyesha from "../Images/Nyesha.jpeg";
+import EmmaInniss from "../Images/Emma Inniss.jpeg";
+import Nick from "../Images/Nick.jpeg";
+import Anaisha from "../Images/Anaisha.jpeg";
+import Selma from "../Images/Selma.jpeg";
+import Jade from "../Images/jade.jpeg";
+import Syaed from "../Images/Syaed.jpeg";
+import Michelle from "../Images/michelle.jpeg";
+import John from "../Images/John.jpeg";
+import Slideshow from "../components/Slideshow";
+import Footer from "../components/Footer.js";
 
 const Team = () => {
   return (
@@ -22,74 +24,98 @@ const Team = () => {
 
         <Header />
       </header>
+      <Slideshow />
       <body>
         <div className="hero-section">
           <div className="row">
             <div className="container">
-              <img src={GingerLady} alt="GingerLady" />
+              <img src={Rhyanina} alt="Rhyanina photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">
+                  Rhyanina Blackett-Codrington - Founder
+                </div>
               </div>
             </div>
             <div className="container">
-              <img src={LeightonBaines} alt="LeightonBaines" />
+              <img src={Kusu} alt="Kusu photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">Kusu Biti - Think Well Lead</div>
               </div>
             </div>
             <div className="container">
-              <img src={BlackHairBrownDude} alt="BlackHairBrownDude" />
+              <img src={Ticha} alt="Ticha photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">Ticha Mayo - Employability Lead</div>
               </div>
             </div>
             <div className="container">
-              <img src={ChineseDude} alt="ChineseDude" />
+              <img src={Nyesha} alt="Nyesha photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">Nyesha Jones - Employability Lead</div>
               </div>
             </div>
             <div className="container">
-              <img src={SmilingRedLips} alt="SmilingRedLips" />
+              <img src={EmmaInniss} alt="Emma Inniss photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">Emma Inniss - Think Well Lead</div>
+              </div>
+            </div>
+            <div className="container">
+              <img src={Nick} alt="Nick photo" />
+              <div className="middle">
+                <div className="text">Nick Joseph - Being One Lead</div>
               </div>
             </div>
           </div>
           <div className="row">
             <div className="container">
-              <img src={BlackBeauty} alt="BlackBeauty" />
+              <img src={Anaisha} alt="Anaisha photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">Anaisha Allen - Well Being Lead</div>
               </div>
             </div>
             <div className="container">
-              <img src={MiddleAgedMan} alt="MiddleAgedMan" />
+              <img src={Selma} alt="Selma photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">Selma Micael - Well Being Lead</div>
               </div>
             </div>
             <div className="container">
-              <img src={Aphrodite} alt="Aphrodite" />
+              <img src={Jade} alt="Jade photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">
+                  Jade Lee - Well Being Lead and Family Outreach
+                </div>
               </div>
             </div>
             <div className="container">
-              <img src={PlasticWoman} alt="PlasticWoman" />
+              <img src={Syaed} alt="Syaed photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">
+                  Syaed Sentain - Operations & Sports Lead
+                </div>
               </div>
             </div>
             <div className="container">
-              <img src={WhiteLady} alt="image10" />
+              <img src={Michelle} alt="Michelle photo" />
               <div className="middle">
-                <div className="text">Sample Text</div>
+                <div className="text">
+                  Michelle Murray - Creativity & Performing Arts Lead
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <img src={John} alt="John photo" />
+              <div className="middle">
+                <div className="text">
+                  John Ade Antoh - SEN Coordinator & Family Outreach Lead
+                </div>
               </div>
             </div>
           </div>
         </div>
       </body>
+      <Slideshow />
 
       <Footer />
     </>
