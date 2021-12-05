@@ -285,15 +285,23 @@ li:hover {
   height: 700px;
   background-repeat: no-repeat;
   border-radius: 20px;
+  /* z-index: 3; */
 }
 
 .about-us-background-overlay {
   opacity: 50%;
-  z-index: 2;
+  height: 100%;
+  width: 100%;
   border-radius: 20px;
-  margin: 10px;
-}
+  /* margin: 10px; */
+  background: #8155ba;
 
+  /* display: block; */
+  position: relative;
+}
+/* .sloganText {
+  
+} */
 .about-us-heading-text {
   color: purple;
   text-align: center;
@@ -301,6 +309,9 @@ li:hover {
 
 .about-us-subheading-text {
   text-align: center;
+  color: white;
+  z-index: 3;
+  position: absolute;
 }
 
 .meet-the-founder-container {
@@ -384,6 +395,7 @@ body {
 .text {
   color: white;
   font-size: 16px;
+  font-family: heebo;
   padding: 16px 32px;
 }
 
