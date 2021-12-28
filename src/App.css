@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
 @import "react-slideshow-image/dist/styles.css";
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1 {
   color: white;
   padding: 40px;
@@ -42,8 +48,18 @@ li:hover {
 .nav-link {
   text-decoration: none;
 }
-.donateButton {
+
+.menu-links {
+  display: block;
+}
+
+.donate-and-logo {
   display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.donateButton {
   margin-right: 10px;
   margin-top: 30px;
   background-color: #fff4bd;
@@ -52,7 +68,6 @@ li:hover {
   color: #8155ba;
   border: none;
   border-radius: 12px;
-  float: right;
 }
 
 .donateButton a:hover {
@@ -80,11 +95,25 @@ li:hover {
   list-style: none;
 }
 
-.bannerStyle {
+.banner-parent {
+  width: 100%;
   height: 600px;
+  z-index: 3;
+}
 
+.banner {
+  height: 600px;
+  margin: 10px;
   border-radius: 10px;
+  background-image: url("./Images/croppedteamphoto.png");
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.mobile-menu {
+  display: none;
+  align-items: center;
 }
 
 .imageSize {
@@ -93,8 +122,23 @@ li:hover {
   object-position: center;
   height: 100%;
   margin-top: 10px;
-  margin-bottom: 10px;
+
   border-radius: 10px;
+}
+
+.logo-size {
+  width: 500px;
+  height: 250px;
+  margin: 10px;
+  z-index: 9999;
+  position: absolute;
+}
+
+.feature-page-subheading-text {
+  /* text-align: left; */
+  margin-top: 10px;
+  /* float: bottom; */
+  position: absolute;
 }
 
 .sloganText {
@@ -113,7 +157,8 @@ li:hover {
 .slideshow {
   background-color: #efdcf9;
   border-radius: 10px;
-  margin-top: 10px;
+  margin: 10px;
+  /* width: 100%; */
 }
 
 .slideshowText {
@@ -123,15 +168,16 @@ li:hover {
 
 .contactForm {
   background-color: #fff4bd;
-  height: 300px;
   border-radius: 10px;
   text-align: center;
+  margin: 10px;
+  padding-bottom: 30px;
 }
 
 .contactForm h1 {
   color: #8155ba;
   padding-bottom: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .fname {
@@ -148,7 +194,7 @@ li:hover {
   font-family: heebo;
 }
 
-.contactForm button {
+.contactBtn {
   padding: 10px;
   border-radius: 10px;
   border: none;
@@ -162,7 +208,7 @@ li:hover {
 /* PARTNERS SECTION*/
 .partners {
   color: #8155ba;
-  height: 300px;
+  /* height: 300px; */
   border-radius: 10px;
 }
 
@@ -182,16 +228,18 @@ li:hover {
   margin: 10px;
 }
 
-.paperpages-logo {
-  margin: 5px;
+.logo-div {
+  overflow: hidden;
+  width: 23%;
+  height: 100%;
+  /* object-fit: contain; */
 }
 
-.boilerhouse-logo {
-  margin: 5px;
-}
-
-.kandekore-logo {
-  margin: 5px;
+.logo-div img {
+  object-fit: contain;
+  object-position: center;
+  height: 100%;
+  width: 100%;
 }
 
 .footerContainer {
@@ -302,6 +350,20 @@ li:hover {
 /* .sloganText {
   
 } */
+
+/* .feature-banner-background-overlay {
+  position: relative;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 30%;
+  border-radius: 10px;
+  height: 100%;
+  background: #8155ba;
+  z-index: 0;
+} */
+
 .about-us-heading-text {
   color: purple;
   text-align: center;
@@ -495,4 +557,108 @@ body {
   opacity: 25%;
   background-position: 100px;
   padding: 20px;
+}
+
+@media (max-device-width: 360px) {
+  body {
+    overflow-x: hidden;
+
+    width: 100%;
+  }
+
+  /* body {
+    overflow-x: hidden;
+  } */
+
+  /* h1,
+  h2,
+  h3,
+  h4,
+  p {
+    margin: 0;
+  } */
+
+  img {
+    margin: 0;
+    max-width: 100%;
+    /* object-fit: cover; */
+  }
+
+  ul {
+    background-color: #8155ba;
+    width: 100%;
+  }
+
+  li {
+    float: none;
+  }
+
+  a {
+    color: white;
+  }
+  .headerStyle {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .mobile-menu ul {
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .mobile-menu li {
+    color: blue;
+  }
+
+  .donate-and-logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .donateButton {
+    display: block;
+    padding: 10px;
+    color: #fff4bd;
+    margin-top: 0;
+  }
+
+  .btn-text {
+    /* color: #fff4bd; */
+  }
+
+  .menuLinks {
+    /* margin-left: 30%;
+    justify-content: center;
+    text-align: center; 
+    display: flex;
+    flex-direction: row;
+    height: fit-content; */
+  }
+
+  .linkNav {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo-div {
+    display: block;
+  }
+  .partnerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoNav {
+    align-items: center;
+  }
+
+  .sloganText {
+    font-size: medium;
+  }
 }

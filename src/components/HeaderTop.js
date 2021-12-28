@@ -5,7 +5,7 @@ import logo from "../mainlogo.png";
 const HeaderTop = () => {
   return (
     <>
-      <div>
+      <div className="donate-and-logo">
         <img
           src={logo}
           height={81}
@@ -14,7 +14,11 @@ const HeaderTop = () => {
           className="logoNav"
         />
         <button className="donateButton">
-          <a href="https://www.justgiving.com/" target="_blank">
+          <a
+            className="btn-text"
+            href="https://www.justgiving.com/"
+            target="_blank"
+          >
             Make a donation
           </a>
         </button>
