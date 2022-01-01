@@ -5,7 +5,7 @@ import logo from "../mainlogo.png";
 const HeaderTop = () => {
   return (
     <>
-      <div className="donate-and-logo">
+      <div className="donate-and-logo" to="/">
         <img
           src={logo}
           height={81}

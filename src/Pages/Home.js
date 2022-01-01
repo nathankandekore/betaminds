@@ -9,19 +9,17 @@ import SignatureBanner from "../components/SignatureBanner.js";
 import HeaderTop from "../components/HeaderTop";
 import Slogan from "../components/Slogan";
 import ContactForm from "../components/ContactForm";
-import MobileMenu from "../components/MobileMenu";
+
 import Hamburger from "hamburger-react";
 
 const Home = () => {
-  // const [isOpen, setOpen] = useState(true);
-
   return (
     <>
       <header>
         <HeaderTop />
 
         <Header />
-        <MobileMenu />
+
         {/* <Hamburger toggled={isOpen} toggle={setOpen} /> */}
       </header>
       <Slogan />

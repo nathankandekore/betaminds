@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+.test-colour {
+  color: #8155ba;
+}
+
 h1 {
   color: white;
   padding: 40px;
@@ -21,7 +25,6 @@ h2 {
 }
 
 ul {
-  margin: 5px;
   padding: 5px;
   font-family: heebo;
 }
@@ -29,7 +32,7 @@ ul {
 li {
   margin: 5px;
   padding: 5px;
-  float: right;
+  /* float: right; */
   font-family: heebo;
   text-decoration: none;
 }
@@ -49,6 +52,18 @@ li:hover {
   text-decoration: none;
 }
 
+.menuLinks {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+
+  /* confusion not sure why the links are not responding to flex direction */
+}
+
+.menuLinks li:hover {
+  cursor: pointer;
+}
+
 .menu-links {
   display: block;
 }
@@ -60,7 +75,7 @@ li:hover {
 }
 
 .donateButton {
-  margin-right: 10px;
+  /* margin-right: 10px; */
   margin-top: 30px;
   background-color: #fff4bd;
   font-size: 20px;
@@ -78,10 +93,35 @@ li:hover {
   color: #8155ba;
 }
 
+.hamburger-menu-container {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.hamburger-menu {
+  background-color: #efdcf9;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  color: #8155ba;
+
+  padding: 10px;
+  display: block;
+}
+
+.hamburger-menu button {
+}
+
+.menu-container {
+  border-radius: 20px;
+}
+
 .headerStyle {
   background-color: #8155ba;
   color: white;
-  height: 50px;
+  /* height: 50px; */
   border-radius: 20px;
   margin: 10px;
 }
@@ -97,8 +137,8 @@ li:hover {
 
 .banner-parent {
   width: 100%;
-  height: 600px;
-  z-index: 3;
+  /* height: 600px; */
+  /* z-index: 3; */
 }
 
 .banner {
@@ -109,11 +149,6 @@ li:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-}
-
-.mobile-menu {
-  display: none;
-  align-items: center;
 }
 
 .imageSize {
@@ -146,6 +181,13 @@ li:hover {
   text-align: center;
 }
 
+.sloganTextContainer {
+  display: block;
+}
+
+.sloganText h1 {
+}
+
 .whoAreBM {
   background-color: #8155ba;
   height: 300px;
@@ -158,6 +200,7 @@ li:hover {
   background-color: #efdcf9;
   border-radius: 10px;
   margin: 10px;
+
   /* width: 100%; */
 }
 
@@ -245,7 +288,7 @@ li:hover {
 .footerContainer {
   background-color: #efdcf9;
   height: 300px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .companyInfoContainer {
@@ -282,6 +325,10 @@ li:hover {
   justify-content: center;
   align-items: center;
   font-family: heebo;
+}
+
+.signatureBannerContainer p {
+  color: #8155ba;
 }
 
 .socialMediaIconsContainer {
@@ -333,6 +380,7 @@ li:hover {
   height: 700px;
   background-repeat: no-repeat;
   border-radius: 20px;
+  background-position: center top;
   /* z-index: 3; */
 }
 
@@ -367,6 +415,7 @@ li:hover {
 .about-us-heading-text {
   color: purple;
   text-align: center;
+  width: 100%;
 }
 
 .about-us-subheading-text {
@@ -384,7 +433,7 @@ li:hover {
 .meet-the-founder {
   background-color: #efdcf9;
   border-radius: 20px;
-  margin: 20px;
+  /* margin: 20px; */
   width: 70%;
 }
 
@@ -559,24 +608,22 @@ body {
   padding: 20px;
 }
 
+.rights-reserved p {
+  color: #8155ba;
+}
+
 @media (max-device-width: 360px) {
   body {
     overflow-x: hidden;
 
     width: 100%;
   }
-
-  /* body {
-    overflow-x: hidden;
-  } */
-
-  /* h1,
-  h2,
-  h3,
-  h4,
-  p {
-    margin: 0;
-  } */
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    width: 100%;
+  }
 
   img {
     margin: 0;
@@ -596,17 +643,35 @@ body {
   a {
     color: white;
   }
-  .headerStyle {
+  /* .headerStyle {
     display: none;
+  } */
+
+  .menuLinks {
+    flex-direction: column;
+
+    display: block;
   }
 
-  .mobile-menu {
+  .menuLinks ul {
+    margin: 0;
+  }
+
+  .headerStyle {
+    background-color: transparent;
+  }
+
+  .nav-link {
+    display: block;
+  }
+
+  /* .mobile-menu {
     display: flex;
     align-items: center;
     text-decoration: none;
-  }
+  } */
 
-  .mobile-menu ul {
+  /* .mobile-menu ul {
     flex-direction: column;
     text-decoration: none;
     list-style: none;
@@ -614,7 +679,7 @@ body {
 
   .mobile-menu li {
     color: blue;
-  }
+  } */
 
   .donate-and-logo {
     flex-direction: column;
@@ -633,12 +698,7 @@ body {
   }
 
   .menuLinks {
-    /* margin-left: 30%;
-    justify-content: center;
-    text-align: center; 
-    display: flex;
-    flex-direction: row;
-    height: fit-content; */
+    size: 30vh;
   }
 
   .linkNav {
@@ -659,6 +719,118 @@ body {
   }
 
   .sloganText {
-    font-size: medium;
+    display: none;
+  }
+
+  .slideshow {
+    margin: 10px;
+  }
+
+  .about-us-heading-text {
+    width: 100%;
+  }
+
+  .about-us-background {
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .about-us-background-overlay {
+    border-radius: 10px;
+  }
+
+  .meet-the-founder-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 10px;
+  }
+
+  .meet-the-founder {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .meet-the-founder-text {
+    width: auto;
+  }
+
+  .meet-the-founder-image {
+    width: 100%;
+    object-fit: contain;
+    margin: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+
+  .companyInfoContainer {
+    justify-content: center;
+  }
+  .socialMediaIconsContainer {
+    /* display: flex;
+
+    justify-content: center; */
+  }
+
+  .footerContainer {
+    /* justify-content: center; */
+  }
+
+  .think-well-section {
+    background-image: none;
+  }
+
+  .think-well-text {
+    margin: 0px 50px 0px 50px;
+  }
+
+  .well-being-section {
+    background-image: none;
+  }
+
+  .well-being-text {
+    margin: 0px 50px 0px 50px;
+  }
+
+  .being-one-section {
+    background-image: none;
+  }
+
+  .being-one-text {
+    margin: 0px 50px 0px 50px;
+  }
+
+  .being-one-logo-position {
+    align-content: center;
+  }
+
+  .row {
+    flex-direction: column;
+    object-fit: contain;
+  }
+
+  .row img {
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .container {
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0;
+  }
+
+  .container img {
+    border-radius: 10px;
+  }
+
+  .middle {
+    margin: 10px;
   }
 }
