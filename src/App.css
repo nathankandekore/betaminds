@@ -612,7 +612,7 @@ body {
   color: #8155ba;
 }
 
-@media (max-device-width: 360px) {
+@media (max-device-width: 375px) {
   body {
     overflow-x: hidden;
 
