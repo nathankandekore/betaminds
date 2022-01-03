@@ -79,7 +79,7 @@ li:hover {
   margin-top: 30px;
   background-color: #fff4bd;
   font-size: 20px;
-  padding: 14px 100px 14px 100px;
+  /* padding: 14px 100px 14px 100px; */
   color: #8155ba;
   border: none;
   border-radius: 12px;
@@ -612,7 +612,7 @@ body {
   color: #8155ba;
 }
 
-@media (max-device-width: 375px) {
+@media (max-device-width: 500px) {
   body {
     overflow-x: hidden;
 
@@ -646,6 +646,10 @@ body {
   /* .headerStyle {
     display: none;
   } */
+
+  .donateButton {
+    padding: 0;
+  }
 
   .menuLinks {
     flex-direction: column;
