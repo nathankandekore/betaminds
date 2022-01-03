@@ -441,7 +441,7 @@ li:hover {
   width: 100%;
   border-radius: 20px;
   margin: 20px;
-  opacity: 50%;
+  /* opacity: 50%; */
 }
 
 .meet-the-founder-text {
@@ -553,10 +553,10 @@ body {
   color: #316767;
   height: 600px;
   background-image: url("./Images/just-green-guy-right.png");
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: 85%;
 
-  opacity: 100%;
   border-radius: 20px;
   margin: 10px;
 }
@@ -603,7 +603,7 @@ body {
   background-image: url("./Images/classroomcoverfaes.jpg");
 
   background-size: 150%;
-  opacity: 25%;
+  /* opacity: 25%; */
   background-position: 100px;
   padding: 20px;
 }
