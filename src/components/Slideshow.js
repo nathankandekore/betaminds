@@ -5,7 +5,7 @@ import feedback from "./Data";
 const Slideshow = () => {
   // eslint-disable-next-line
   const [index, setIndex] = useState(0);
-  const { name, image, text } = feedback[index];
+  // const { name, image, text } = feedback[index];
 
   const getReview = () => {
     let randomNumber = Math.floor(Math.random() * feedback.length);
