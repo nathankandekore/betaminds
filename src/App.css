@@ -600,7 +600,7 @@ body {
 
 .photo-divider-section {
   height: 150px;
-  background-image: url(/Users/nathankandekore-white/Desktop/betaminds/src/familyPic.jpeg);
+  background-image: url("./Images/classroomcoverfaes.jpg");
 
   background-size: 150%;
   opacity: 25%;

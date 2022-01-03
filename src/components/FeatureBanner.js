@@ -1,6 +1,6 @@
 import React from "react";
 // import TeamPic from "../classroomcoverfaes.jpg";
-import WhiteLogo from "../betaminds-logo-white.png";
+
 // import RhyStanding from "../Images/rhystanding.jpg";
 
 const FeatureBanner = () => {

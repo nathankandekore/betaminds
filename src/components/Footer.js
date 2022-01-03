@@ -1,5 +1,5 @@
 import React from "react";
-import WhiteLogo from "/Users/nathankandekore-white/Desktop/betaminds/src/betaminds-logo-white.png";
+import WhiteLogo from "../betaminds-logo-white.png";
 import { FaFacebookF } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { BsTwitter } from "react-icons/bs";
